@@ -59,10 +59,28 @@ h1{
     width: 50%;
     border: 10px solid;
 }
+.center3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 50%;
+    border: 10px solid;
+}
 /* list */
 ol.a {
     list-style-type: solidcircle;
 }
 ol.f {
     list-style-position: outside;
+}
+/* picture rotation */
+.rotateimg90 {
+  /* -webkit-transform:rotate(90deg); */
+  /* -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg); */
+  transform: rotate(90deg);
+
 }
