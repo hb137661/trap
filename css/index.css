@@ -1,21 +1,19 @@
-ul {
+.navUL {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
 }
-
-li {
-    float: left;
-}
-
-li a {
+.navLI a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    float: left;
+
+
 }
 /* background */
 body {
@@ -32,12 +30,12 @@ p {
 }
 
 li{
-  font-size: 20px;
-  margin: 10px;
-  /* color: white; */
+font-size: 20px;
+margin: 10px;
+  /* This is for the text in the body*/
 }
 
-li a:hover {
+.navLI a:hover {
     background-color: #111;
 }
 h2{
@@ -45,6 +43,14 @@ h2{
 }
 h1{
   text-align: center;
+}
+/* my stats sheets */
+.center1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: 10px solid gray;
 }
 .center {
     display: block;
@@ -56,4 +62,7 @@ h1{
 /* list */
 ol.a {
     list-style-type: solidcircle;
+}
+ol.f {
+    list-style-position: outside;
 }
